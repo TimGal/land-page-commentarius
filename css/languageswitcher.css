@@ -1,0 +1,43 @@
+.languageswitcher {
+	position: fixed;
+	top: 0;
+	float: left;
+	left: 60%;
+	width: 100px;
+	margin-left: -50px;
+	z-index: 800;
+	color: green;
+}
+
+.link {
+	color: white;
+	text-decoration: none;
+	line-height: 70px;
+	width: 50%;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.link {
+		line-height: 50px !important;
+	}
+
+	.languageswitcher {
+		position: fixed;
+		top: 0;
+		float: left;
+		left: 55%;
+		width: 100px;
+		margin-left: -50px;
+		z-index: 800;
+		color: green;
+	}
+}
+
+.link > a {
+	color: white;
+}
+
+#en {
+	margin-left: 30px;
+}
